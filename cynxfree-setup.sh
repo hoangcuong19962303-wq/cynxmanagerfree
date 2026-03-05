@@ -21,7 +21,7 @@ echo "[4/5] Installing Python packages..."
 pip install requests colorama aiohttp prettytable
 
 echo "[5/5] Downloading Cynx Manager Free..."
-curl -Ls "https://raw.githubusercontent.com/hoangcuong19962303-wq/CynxmanagerFree/main/Cynx-Manager-Free.py" -o /sdcard/Download/Cynx-Manager-Free.py
+curl -Ls "https://raw.githubusercontent.com/hoangcuong19962303-wq/CynxmanagerFree/main/Cynx-Manager-Free.py?t=$(date +%s)" -o /sdcard/Download/Cynx-Manager-Free.py
 
 echo ""
 echo "======================================"
